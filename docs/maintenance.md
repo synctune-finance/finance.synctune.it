@@ -57,6 +57,11 @@ page's privacy note if this behavior changes.
 
 ## Before publishing a change
 
+Describe what the finance tools do, without explaining branch focus or website
+independence. Fiscal Fox and FIRE Tools use their actual marks, bundled locally
+and recorded with checksums and notices in `assets/projects/provenance.json`.
+Do not use branch symbols or framework icons as project-logo placeholders.
+
 Preview narrow and wide screens. Check local assets, anchors, outbound
 destinations and keyboard focus. Open the privacy disclosure with the keyboard.
 Keep `CNAME`, canonical URLs, `robots.txt` and `sitemap.xml` consistent if the

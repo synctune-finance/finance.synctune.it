@@ -1,5 +1,12 @@
 :root { --signal: #7CE5B5; }
 
+.partner-mark {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 24px;
+  object-fit: contain;
+}
+
 .reserve {
   min-height: 460px;
   border: 1px solid var(--signal);
