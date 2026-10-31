@@ -1,0 +1,25 @@
+:root { --signal: #7CE5B5; }
+
+.partner-mark {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 24px;
+  object-fit: contain;
+}
+
+.reserve {
+  min-height: 460px;
+  border: 1px solid var(--signal);
+  border-top-width: 8px;
+  border-radius: 48% 48% 0 0;
+}
+
+.reserve .art-caption {
+  padding-top: 20px;
+  border-top: 1px solid var(--signal);
+  color: var(--signal);
+}
+
+@media (max-width: 700px) {
+  .reserve { min-height: 360px; }
+}
