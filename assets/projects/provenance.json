@@ -1,0 +1,19 @@
+[
+  {
+    "project": "Fiscal Fox",
+    "asset": "assets/projects/fiscal-fox.svg",
+    "sha256": "84324957182efab50d543b8e868d9e67c014f33c47d5bde3e6948445d2beba51",
+    "license": null,
+    "source": "Synctune project artwork used by request"
+  },
+  {
+    "project": "FIRE Tools",
+    "asset": "assets/projects/fire-tools.svg",
+    "sha256": "634bf7c1431ce028107e95d7e762934f0573ba4a648b913c3b2321af4eda8698",
+    "license": "MIT",
+    "repo": "fire-tools-inc/app",
+    "revision": "96806716832c4ce0caedcf355f8ce7c23af8c8e2",
+    "source": "electron/build/icon.svg",
+    "notice": "assets/projects/licenses/fire-tools-LICENSE.txt"
+  }
+]
