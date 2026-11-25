@@ -17,9 +17,10 @@ its own files; no website depends on another website's CSS or assets.
 ## Project links and confidentiality
 
 The catalog is based on the branch's public GitHub profile and Matteo's public
-project directory. Public source links use verified current repositories,
-including projects still under `mbianchidev`. Some organization-profile links
-describe planned transfers and must not be copied without checking them.
+project directory. Public source links use verified current repositories. Resolve a repository
+with `gh api repos/OWNER/NAME --jq '.full_name, .visibility'` before linking
+it, and link only public repositories. Fiscal Fox lives in the private
+`synctune-finance/fiscal-fox` repository, so its source stays unlinked.
 Update the company directory on `synctune.it` when changing branch entries.
 
 When a project has a working live app, demo or website, link it first and the
@@ -34,15 +35,16 @@ company-owned projects.
 Customer identities, logos, private repositories and delivery details must not
 be added without authorization.
 
-Matteo's personal site is linked at `mbianchi.dev`. Denote, Open Playlist and
-Moguri have independent websites. This repository does not build or deploy them.
+Matteo's personal site is linked at `mbianchi.dev`. Fiscal Fox has its own
+website at `https://fiscal-fox.synctune.it`, linked from its section here.
+Denote, Open Playlist and Moguri also have independent websites. This
+repository does not build or deploy any of them.
 FIRE Tools is a partner project from Fire Tools Inc, not a Synctune branch.
 
 ## Brand source and rights
 
-Artwork and unmodified font files come from
-[synctune-io/branding](https://github.com/synctune-io/branding),
-approved snapshot `55764ef`. Use the branch's outlined SVGs without changing
+Artwork and unmodified font files come from the private
+`synctune-io/branding` repository, approved snapshot `55764ef`. Use the branch's outlined SVGs without changing
 their colors, proportions, padding or orientation.
 
 Ink is `#111214` and paper is `#F5F2E9`. The branch accent in `brand.css` matches
